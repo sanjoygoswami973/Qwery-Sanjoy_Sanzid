@@ -572,8 +572,8 @@ video {
   position: absolute;
 }
 
-.z-20 {
-  z-index: 20;
+.top-7 {
+  top: 1.75rem;
 }
 
 .mx-auto {
@@ -627,8 +627,16 @@ video {
   width: 405px;
 }
 
+.w-\[587px\] {
+  width: 587px;
+}
+
 .w-\[624px\] {
   width: 624px;
+}
+
+.w-\[655px\] {
+  width: 655px;
 }
 
 .w-\[878px\] {
@@ -641,14 +649,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[587px\] {
-  width: 587px;
-}
-
-.w-\[655px\] {
-  width: 655px;
 }
 
 .cursor-pointer {
@@ -681,13 +681,13 @@ video {
        column-gap: 18px;
 }
 
-.gap-y-2 {
-  row-gap: 0.5rem;
-}
-
 .gap-x-\[60px\] {
   -moz-column-gap: 60px;
        column-gap: 60px;
+}
+
+.gap-y-2 {
+  row-gap: 0.5rem;
 }
 
 .rounded-\[10px\] {
@@ -730,24 +730,24 @@ video {
   padding-bottom: 1.75rem;
 }
 
-.py-\[18px\] {
-  padding-top: 18px;
-  padding-bottom: 18px;
-}
-
-.py-\[462px\] {
-  padding-top: 462px;
-  padding-bottom: 462px;
-}
-
 .py-\[13px\] {
   padding-top: 13px;
   padding-bottom: 13px;
 }
 
+.py-\[18px\] {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
 .py-\[19px\] {
   padding-top: 19px;
   padding-bottom: 19px;
+}
+
+.py-\[462px\] {
+  padding-top: 462px;
+  padding-bottom: 462px;
 }
 
 .pb-12 {
@@ -770,20 +770,20 @@ video {
   padding-top: 153px;
 }
 
-.pt-\[560px\] {
-  padding-top: 560px;
+.pt-\[47px\] {
+  padding-top: 47px;
 }
 
-.pt-\[81px\] {
-  padding-top: 81px;
+.pt-\[560px\] {
+  padding-top: 560px;
 }
 
 .pt-\[66px\] {
   padding-top: 66px;
 }
 
-.pt-\[47px\] {
-  padding-top: 47px;
+.pt-\[81px\] {
+  padding-top: 81px;
 }
 
 .text-center {
@@ -792,10 +792,6 @@ video {
 
 .font-open {
   font-family: Open Sans;
-}
-
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-4xl {
@@ -824,6 +820,10 @@ video {
   font-size: 22px;
 }
 
+.text-\[64px\] {
+  font-size: 64px;
+}
+
 .text-\[88px\] {
   font-size: 88px;
 }
@@ -842,18 +842,14 @@ video {
   line-height: 1.75rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-\[64px\] {
-  font-size: 64px;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
